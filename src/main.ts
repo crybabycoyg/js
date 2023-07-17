@@ -24,5 +24,5 @@ import './style.css'
 
 let input=parseFloat(prompt('Текущий час') as string)
 let input2=parseFloat(prompt ('Текущие минуты') as string)
-let h=parseInt(`${(1140-input*60-input2)/60}`)
+let h=parseInt(`${(1440-input*60-input2)/60}`)
 alert(`до следующего дня осталось ${h} часов ${60-(input2)} минут`)
