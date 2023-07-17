@@ -5,6 +5,12 @@ import './style.css'
 
 
 
-let name = prompt('Как вас зовут', '');
+// let name = prompt('Как вас зовут', '');
 
-alert('Ваше имя ' + name)
+// alert('Ваше имя ' + name)
+
+
+
+let input=parseFloat(prompt('Введите число') as string)
+let input2=parseFloat(prompt('Введите степень') as string)
+alert( input ** input2 );
