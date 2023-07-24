@@ -49,13 +49,13 @@ import './style.css'
 
 
 
-let accessAllowed;
-let age = prompt('Сколько вам лет?', '');
+// let accessAllowed;
+// let age = prompt('Сколько вам лет?', '');
 
-if (age > 22) {
-  accessAllowed = true;
-} else {
-  accessAllowed = false;
-}
+// if (age > 22) {
+//   accessAllowed = true;
+// } else {
+//   accessAllowed = false;
+// }
 
-alert(accessAllowed);
+// alert(accessAllowed);
