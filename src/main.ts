@@ -60,7 +60,7 @@ import './style.css'
 
 // alert(accessAllowed);
 
-const number = +prompt('Введите любое число', '');
+const number = +prompt('Введите число то 0 до 2', '');
 
 switch (number) {
   case 0:
