@@ -51,6 +51,9 @@ import './style.css'
 
 let hour = 9;
 
-if (hour < 10 || hour > 22) {
+if (hour < 10 || hour > 20) {
   alert( 'Офис закрыт.' );
+}
+if (hour < 11 || hour > 19) {
+    alert ('Офис открыт.');
 }
