@@ -60,7 +60,7 @@ import './style.css'
 
 // alert(accessAllowed);
 
-const number = +prompt('Введите число между 0 и 3', '');
+const number = +prompt('Введите число между 0 и 2', '');
 
 switch (number) {
   case 0:
@@ -71,6 +71,7 @@ switch (number) {
     alert('Вы ввели число 1');
     break;
 
-  case 3:
-    alert('Вы ввели число 3, а может и больше');
+  case 2:
+    alert('Вы ввели число 2, а может и больше');
     break;
+}
