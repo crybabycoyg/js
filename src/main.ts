@@ -49,8 +49,9 @@ import './style.css'
 
 
 
-let hour = 10;
+let hour = 12;
+let isWeekend = true;
 
-if (hour < 10 || hour > 21) {
-  alert( 'Офис работает с 10 до 20 часов' );
+if (hour < 10 || hour > 18 || isWeekend) {
+  alert( 'Офис закрыт.' );
 }
