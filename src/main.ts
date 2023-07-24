@@ -49,9 +49,13 @@ import './style.css'
 
 
 
-let hour = 12;
-let isWeekend = true;
+let accessAllowed;
+let age = prompt('Сколько вам лет?', '');
 
-if (hour < 10 || hour > 18 || isWeekend) {
-  alert( 'Офис закрыт.' );
+if (age > 22) {
+  accessAllowed = true;
+} else {
+  accessAllowed = false;
 }
+
+alert(accessAllowed);
