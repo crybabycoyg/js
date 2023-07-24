@@ -29,10 +29,15 @@ import './style.css'
 
 
 
-let company = prompt('Какое официальное название JavaScript?', '');
+// let company = prompt('Какое официальное название JavaScript?', '');
 
-if (company == 'Netscape') {
-  alert('Верно!');
-} else {
-  alert('Не знаете? ECMAScript!');
-}
+// if (company == 'Netscape') {
+//   alert('Верно!');
+// } else {
+//   alert('Не знаете? ECMAScript!');
+// }
+
+let message = (login == 'Сотрудник') ? 'Привет' :
+  (login == 'Директор') ? 'Здравствуйте' :
+  (login == '') ? 'Нет логина' :
+  '';
