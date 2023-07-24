@@ -37,12 +37,12 @@ import './style.css'
 //   alert('Не знаете? ECMAScript!');
 // }
 
-let value = prompt('Введите число', 0);
+// let value = prompt('Введите число', 0);
 
-if (value > 0) {
-    alert(Больше нуля);
-} else if (value < 0) {
-    alert(Меньше нуля);
-} else {
-    alert(Ноль);
-}
+// if (value > 0) {
+//   alert( 1 );
+// } else if (value < 0) {
+//   alert( -1 );
+// } else {
+//   alert( 0 );
+// }
