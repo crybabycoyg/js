@@ -60,22 +60,23 @@ import './style.css'
 
 // alert(accessAllowed);
 
-const number = +prompt('Введите число то 0 до 2', '');
+// const number = +(prompt('Введите число то 0 до 2')as string)
+const number = prompt('Введите число то 0 до 2')
 
 switch (number) {
-  case 0:
+  case '0':
     alert('Вы ввели число 0');
     break;
 
-  case 1:
+  case '1':
     alert('Вы ввели число 1');
     break;
 
-  case 2:
+  case '2':
     alert('Вы ввели число 2');
     break;
 
-  case 3:
+  case '3':
       alert('Введите число между 0 и 2, не больше')
       break;
 }
