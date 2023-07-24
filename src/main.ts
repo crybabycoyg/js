@@ -72,6 +72,10 @@ switch (number) {
     break;
 
   case 2:
-    alert('Вы ввели число 2, а может и больше');
+    alert('Вы ввели число 2');
     break;
+
+  case 3:
+      alert('Введите число между 0 и 2, не больше')
+      break;
 }
