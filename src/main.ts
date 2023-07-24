@@ -49,7 +49,8 @@ import './style.css'
 
 
 
-let message = (login == 'Сотрудник') ? 'Привет' :
-  (login == 'Директор') ? 'Здравствуйте' :
-  (login == '') ? 'Нет логина' :
-  '';
+let hour = 9;
+
+if (hour < 10 || hour > 18) {
+  alert( 'Офис закрыт.' );
+}
