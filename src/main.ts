@@ -52,9 +52,5 @@ import './style.css'
 let hour = 10;
 
 if (hour < 10 || hour > 21) {
-  alert( 'Офис работает с 10:00 до 20:00' );
-}
-
-if (hour < 10 || hour > 21) {
-    alert ('Офис закрыт.');
+  alert( 'Офис работает с 10 до 20 часов' );
 }
