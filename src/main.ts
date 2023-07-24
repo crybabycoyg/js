@@ -40,9 +40,9 @@ import './style.css'
 let value = prompt('Введите число', 0);
 
 if (value > 0) {
-    alert(1);
+    alert(Больше нуля);
 } else if (value < 0) {
-    alert(-1);
+    alert(Меньше нуля);
 } else {
-    alert(0);
+    alert(Ноль);
 }
