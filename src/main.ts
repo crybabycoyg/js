@@ -34,5 +34,5 @@ let company = prompt('Какое официальное название JavaScr
 if (company == 'Netscape') {
   alert('Верно!');
 } else {
-  alert('Не знаете? “ECMAScript”!');
+  alert('Не знаете? ECMAScript!');
 }
