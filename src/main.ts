@@ -60,6 +60,9 @@ import './style.css'
 
 // alert(accessAllowed);
 
+
+console.log('hi')
+
 // const number = +(prompt('Введите число то 0 до 2')as string)
 const number = prompt('Введите число то 0 до 2')
 
